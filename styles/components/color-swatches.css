@@ -1,0 +1,34 @@
+.color-palette {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-auto-rows: minmax(200px, 200px);
+  gap: 20px;
+}
+
+.color-swatch {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+.color-1 {
+  background-color: #264d59;
+}
+
+.color-2 {
+  background-color: #43978d;
+}
+
+.color-3 {
+  background-color: #f9e07f;
+}
+
+.color-4 {
+  background-color: #f9ad6a;
+}
+
+.color-5 {
+  background-color: #d46c4e;
+}
