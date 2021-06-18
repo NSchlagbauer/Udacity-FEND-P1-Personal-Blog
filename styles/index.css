@@ -1,1 +1,66 @@
 @import url(style.css);
+
+.blog-title {
+  grid-area: h;
+}
+
+.blogpost-card {
+  flex-shrink: 0;
+  height: 500px;
+  max-width: 300px;
+  box-shadow: 0 0 9px #888;
+  overflow: hidden;
+}
+
+.blogpost-photo {
+  background-image: url(../images/placeholder.png);
+  background-position: center;
+  background-size: cover;
+  height: 50%;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:  "h"
+                        "n"
+                        "c"
+                        "f";
+}
+
+.post-photo1 {
+  background-image: url(../images/birbs.JPG);
+}
+
+.post-photo2 {
+  background-image: url(../images/Empuria.jpg);
+}
+
+.post-photo3 {
+  background-image: url(../images/Hibiskus.jpg);
+}
+
+.blogpost-title {
+  text-align: center;
+}
+
+.blogpost-text {
+  margin-inline: 2%;
+}
+
+.foot {
+  grid-area: f;
+}
+
+.navigation {
+  grid-area: n;
+}
+
+.posts-container {
+  justify-self: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 1%;
+  gap: 20px;
+  grid-area: c;
+}

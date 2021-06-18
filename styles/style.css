@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 html {
-  font: 14px Arial, Helvetica, sans-serif;
+  font: 1em 'Open Sans', Arial, Helvetica, sans-serif;
   line-height: 1.1;
 }
 
@@ -7,11 +9,12 @@ h1 {
   font: 700 2em;
   color: #f9ad6a;
   text-align: center;
-  text-decoration: underline;
 }
 
 h2 {
   font-size: 1.8em;
+  color: #d46c4e;
+  border-bottom: 1px solid #d46c4e;
 }
 
 h3 {
@@ -32,14 +35,24 @@ h6 {
 }
 
 a {
-  color: #d46c4e;
+  color: #43978d;
+}
+
+q {
+  font-style: italic;
 }
 
 hr {
   border: 1px solid #264d59;
+  margin-block: 1em;
 }
 
 footer {
   text-align: center;
   font-size: 0.8em;
 }
+
+li::marker {
+  color: #43978d;
+}
+

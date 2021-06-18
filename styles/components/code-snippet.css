@@ -1,6 +1,7 @@
 .code-snippet {
+  margin-left: 20px;
   border: 2px solid #f9e07f;
-  border-left: 20px solid #f9e07f;
+  border-left: 15px solid #f9e07f;
   width: fit-content;
   padding-inline: 25px;
 }

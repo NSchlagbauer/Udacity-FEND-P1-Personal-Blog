@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
   <title>Design System</title>
   <link rel="stylesheet" href="../styles/design-system.css">
 </head>
+
 <body>
   <header>
     <h1>Design System</h1>
   </header>
   <nav>
     <!--TODO: Nav items-->
-    <p>Navigation through what's in here</p>
+    <div class="navigation">
+      
+    </div>
   </nav>
   <main>
     <h2>Fundamentals</h2>
@@ -22,13 +27,10 @@
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
-    <p>Base text is 14px and has xx line height.</p>
-    <a href="./design-system.html">This is what anchors look like</a> <br>
-    <em>Emphasis</em> <br>
-    <small>Small</small> <br>
-    <strong>Strong</strong> <br>
-    <u>Underline</u> <br>
-    <q>Quotes</q>
+    <p>Base text is 1em and has 1.1em line height.</p>
+    <a href="./design-system.html">This is what anchors look like</a>
+    <br>
+    <p><em>Emphasis</em> | <small>Small</small> | <strong>Strong</strong> | <u>Underline</u> | <q>Quotes</q></p>
 
     <h3>Lists</h3>
     <ul>
@@ -39,7 +41,18 @@
       <li>Ordered list item</li>
       <li>Another ordered list item</li>
     </ol>
+
+    <h3>Code Snippets</h3>
+    <!--Identation is wrong here because of the <pre> tag-->
+    <div class="code-snippet">
+      <code>
+        <pre>.ul ::marker {
+  color: #43978d;
+}</pre>
+      </code>
+    </div>
     <hr>
+
     <h3>Colors</h3>
     <div class="color-palette">
       <div class="color-swatch color-1">#264d59</div>
@@ -49,12 +62,19 @@
       <div class="color-swatch color-5">#d46c4e</div>
     </div>
     <hr>
+
+    <h3>Forms</h3>
+    <input type="text" class="text-input" placeholder="Type here...">
+    <hr>
+
     <h3>Buttons</h3>
     <div class="button-container">
       <button class="button default-button">Default Button</button> <br>
-      <button class="button secondary-button">Secondary Button</button>
+      <button class="button secondary-button">Secondary Button</button> <br>
+      <button class="button delete-button">Abort/Delete Button</button>
     </div>
     <hr>
+
     <h3>Avatars</h3>
     <div class="avatar">
       <p>Placeholder</p>
@@ -62,4 +82,5 @@
   </main>
   <footer>Footer</footer>
 </body>
+
 </html>
