@@ -1,0 +1,43 @@
+.navigation {
+  background-color: #43978d;
+  margin-bottom: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-button {
+  float: right;
+}
+
+.nav-link:hover {
+  background-color: #264d59;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-item {
+    float: none;
+  }
+
+  .nav-button {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
