@@ -5,11 +5,10 @@
 }
 
 .blogpost-card {
-  flex-shrink: 0;
+  position: relative;
   height: 500px;
-  max-width: 300px;
+  width: 300px;
   box-shadow: 0 0 9px #888;
-  overflow: hidden;
 }
 
 .blogpost-photo {
@@ -47,6 +46,12 @@
   margin-inline: 2%;
 }
 
+.read-more {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .foot {
   grid-area: f;
 }
@@ -63,4 +68,26 @@
   padding: 1%;
   gap: 20px;
   grid-area: c;
+}
+
+@media screen and (min-width: 850px){
+  .container {
+    display: grid;
+    grid-template-areas:  "h h h"
+                          "n c c"
+                          "n c c"
+                          "f f f";
+    column-gap: 10px;                      
+  }
+
+  .nav-item {
+    float: none;
+  }
+
+  .nav-button {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
 }

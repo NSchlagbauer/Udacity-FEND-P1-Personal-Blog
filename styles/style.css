@@ -7,6 +7,15 @@ html {
   line-height: 1.1;
 }
 
+header {
+  background-image: url(../images/beach2.jpg);
+  background-size: cover;
+  height: 150px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
   font: 700 2em;
   color: #f9ad6a;
@@ -47,6 +56,11 @@ q {
 hr {
   border: 1px solid #264d59;
   margin-block: 1em;
+}
+
+header > h1 {
+  -webkit-text-stroke: 1px #264d59;
+  font-size: 2.5em;
 }
 
 footer {

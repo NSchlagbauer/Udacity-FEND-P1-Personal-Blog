@@ -24,6 +24,10 @@
 
 .nav-button {
   float: right;
+  width: auto;
+  padding: 5px;
+  border-radius: 8px;
+  font: 1em 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 .nav-link:hover {

@@ -34,10 +34,3 @@
   outline: none;
   border: 2px solid #f9e07f;
 }
-
-.nav-button {
-  height: 40px;
-  width: auto;
-  border-radius: 8px;
-  font: 1em 'Open Sans', Arial, Helvetica, sans-serif;
-}
