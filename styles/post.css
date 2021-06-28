@@ -1,1 +1,32 @@
 @import url(style.css);
+
+.container {
+  display: grid;
+  grid-template-areas: "h" "a" "c" "f";
+}
+
+@media screen and (min-width: 850px) {
+  .container {
+    display: grid;
+    grid-template-areas: "h h h h" "a c c c" "a c c c" "f f f f";
+    column-gap: 10px;
+  }
+}
+
+.author-info {
+  grid-area: a;
+}
+
+.blog-title {
+  grid-area: h;
+  margin-bottom: 10px;
+}
+
+.foot {
+  grid-area: f;
+}
+
+.content {
+  grid-area: c;
+}
+

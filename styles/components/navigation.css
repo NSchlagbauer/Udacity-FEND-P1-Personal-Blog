@@ -33,15 +33,3 @@
 .nav-link:hover {
   background-color: #264d59;
 }
-
-@media screen and (max-width: 600px) {
-  .nav-item {
-    float: none;
-  }
-
-  .nav-button {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
