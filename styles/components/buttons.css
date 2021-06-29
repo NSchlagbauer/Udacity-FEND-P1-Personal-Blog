@@ -6,15 +6,15 @@
 }
 
 .default-button {
-  background-color: #43978d;
-  border: none;
+  background-color: #264d59;
+  border: 2px solid #264d59;
   color: #fff;
 }
 
 .secondary-button {
   background-color: #fff;
-  border: 2px solid #43978d;
-  color: #43978d;
+  border: 2px solid #264d59;
+  color: #264d59;
 }
 
 .delete-button {

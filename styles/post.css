@@ -1,15 +1,15 @@
 @import url(style.css);
-
 .container {
   display: grid;
   grid-template-areas: "h" "a" "c" "f";
+  gap: 10px;
 }
 
 @media screen and (min-width: 850px) {
   .container {
     display: grid;
-    grid-template-areas: "h h h h" "a c c c" "a c c c" "f f f f";
-    column-gap: 10px;
+    grid-template-areas: "h h" "a c" "a c" "f f";
+    grid-template-columns: 230px 1fr;
   }
 }
 
@@ -17,9 +17,17 @@
   grid-area: a;
 }
 
+.name-panel {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: fit-content;
+  gap: 1em;
+  margin-bottom: 10px;
+}
+
 .blog-title {
   grid-area: h;
-  margin-bottom: 10px;
 }
 
 .foot {
@@ -28,5 +36,44 @@
 
 .content {
   grid-area: c;
+}
+
+.profile-picture {
+  height: 75px;
+  width: 75px;
+  flex-shrink: 0;
+  background-image: url('../images/Profile-Pic.png');
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+.title-image {
+  width: 75%;
+  max-height: 250px;
+  display: block;
+  margin: auto;
+  object-fit: cover;
+}
+
+.socials {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 75px;
+}
+
+.next-post-link {
+  float: right;
+  line-height: 2em;
+}
+
+.previous-post-link {
+  float: left;
+  line-height: 2em;
 }
 

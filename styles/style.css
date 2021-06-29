@@ -46,7 +46,8 @@ h6 {
 }
 
 a {
-  color: #43978d;
+  color: #264d59;
+  font-weight: 600;
 }
 
 q {
@@ -66,6 +67,7 @@ header > h1 {
 footer {
   text-align: center;
   font-size: 0.8em;
+  color: #888;
 }
 
 li::marker {
