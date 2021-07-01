@@ -1,13 +1,13 @@
 @import url(style.css);
 .container {
   display: grid;
-  grid-template-areas: "h" "n" "c" "f";
+  grid-template-areas: 'h' 'n' 'c' 'f';
 }
 
 @media screen and (min-width: 850px) {
   .container {
     display: grid;
-    grid-template-areas: "h h" "n c" "n c" "f f";
+    grid-template-areas: 'h h' 'n c' 'n c' 'f f';
     grid-template-columns: auto 1fr;
     column-gap: 10px;
   }
